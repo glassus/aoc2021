@@ -48,8 +48,7 @@ for i in range(n):
         if N[i][j] == 1:
             s = 0
             parcours(i, j)
-            if s != 0:
-                basin.append(s)
+            basin.append(s)
             
 basin.sort()
 print(basin[-1]*basin[-2]*basin[-3])
