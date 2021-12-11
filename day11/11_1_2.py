@@ -73,7 +73,7 @@ def step():
 
 
 
-#part 2
+# part 2
 k = 0
 while somme() != 0:
     step()
