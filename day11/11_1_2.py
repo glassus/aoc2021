@@ -65,7 +65,7 @@ def step():
     first_step()
     total_flash()
 
-# part 1
+# partie 1
 # for _ in range(100):
 #     step()
 #     
@@ -73,7 +73,7 @@ def step():
 
 
 
-# part 2
+# partie 2
 k = 0
 while somme() != 0:
     step()
