@@ -1,5 +1,5 @@
 rawdata = open('input_test.txt').read().splitlines()
-rawdata = open('input.txt').read().splitlines()
+#rawdata = open('input.txt').read().splitlines()
 
 n, p = len(rawdata), len(rawdata[0])
 
@@ -53,3 +53,5 @@ for i in range(n):
 basin.sort()
 print(basin[-1]*basin[-2]*basin[-3])
     
+for i in [k for k in M]:
+    print(i)
